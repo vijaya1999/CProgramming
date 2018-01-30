@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
 	printf("Enter ten digits in single line. each digit should be separeted by space\n");
 	//0 1 0 0 1 0 0 1 0 0
 	scanf("%d %d %d %d %d %d %d %d %d %d",&a1,&a2,&a3,&a4,&a5,&a6,&a7,&a8,&a9,&a10);
-	if(a1==0 && a1 == 1 && a2 == 0 && a3 == 0){
+	if(a1==0 && a2 == 1 && a3 == 0 && a4 == 0){
 		count++;
 	}else if(a2==0 && a3 == 1 && a4 == 0 && a5 == 0){
 		count++;
